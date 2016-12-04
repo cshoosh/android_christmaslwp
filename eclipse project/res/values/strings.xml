@@ -1,0 +1,52 @@
+<resources>
+    
+    <string name="key_sceneselection">keyScene</string>
+    <string name="key_snow">keySnow</string>
+    <string name="key_sensi">keySensi</string>
+    <string name="key_lowbattery">keyBattery</string>
+    <string name="key_bgtimercheck">keyTimerCheck</string>
+    <string name="key_bgtimercount">keyTimer</string>
+    <string name="key_shake">keyShake</string>
+    
+    <string name="app_name">X-Mas 3D Parallex LWP</string>
+	<string name="app_description">Enjoy this christmas and jump into the world of parallax</string>
+	
+	<string-array name="scene_list">
+	    <item >Snowman Snowfall</item>
+	    <item >Santa\'s Gifts Spree</item>
+	    <item >Santa Cart Ride</item>
+	    <item >Nature X-Mas</item>
+	    <item >Merry Christmas</item>
+	</string-array>
+	<string-array name="scene_values">
+	    <item >0</item>
+	    <item >1</item>
+	    <item >2</item>
+	    <item >3</item>
+	    <item >4</item>
+	</string-array>
+	
+	<string name="tite_sceneselection">Scene Selection</string>
+	<string name="title_snow">Snowfall</string>
+	<string name="title_sensi">Sensitivity</string>
+	<string name="title_lowbattery">Low Battery</string>
+	<string name="title_bgtimer">Background Timer</string>
+	<string name="title_timer">Timer</string>
+	
+	<string name="title_properties">Properties</string>
+	<string name="title_customization">Customization</string>
+	
+	<string name="title_main">Settings</string>
+	<string name="title_shake">Shake Factor</string>
+	
+	<string name="desc_sceneselection">Select to change the scene</string>
+	<string name="desc_snow">Check to enable snowfall</string>
+	<string name="desc_sensi">Click to change acceleration sensitivity</string>
+	<string name="desc_lowbattery">On low battery, pause and save battery consumption</string>
+	<string name="desc_bgtimercheck">Check to enable random background change every specified hour</string>
+	<string name="desc_bgtimer">Select time for background change</string>
+	
+	<string name="desc_properties">Change the properties of wallpaper</string>
+	<string name="desc_customization">Customize your wallpaper</string>
+	<string name="desc_shake">Shake factor sensitivity</string>
+</resources>

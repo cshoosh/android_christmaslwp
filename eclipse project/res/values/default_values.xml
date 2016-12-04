@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item name="def_snow" type="bool" format="boolean">true</item>
+	<item name="def_sensi" type="integer" format="integer">80</item>
+	<item name="def_lowbatterycheck" type="bool" format="boolean">true</item> 
+	<item name="def_bgtimercheck" type="bool" format="boolean">true</item>
+	<item name="def_bgtimer" type="integer" format="integer">1</item>   
+</resources>

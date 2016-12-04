@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="key_sceneselection">keyScene</string>
+    <string name="key_snow">keySnow</string>
+    <string name="key_sensi">keySensi</string>
+    <string name="key_lowbattery">keyBattery</string>
+    <string name="key_bgtimercheck">keyTimerCheck</string>
+    <string name="key_bgtimercount">keyTimer</string>
+    <string name="key_shake">keyShake</string>
+    
+     <string name="app_name">X-Mas 3D Parallaxe LWP</string>
+	<string name="app_description">Genießen Sie dieses Weihnachten und springen in die Welt der Parallaxe</string>
+	
+	<string-array name="scene_list">
+	    <item >Scene 1</item>
+	    <item >Scene 2</item>
+	    <item >Scene 3</item>
+	</string-array>
+	<string-array name="scene_values">
+	    <item >0</item>
+	    <item >1</item>
+	    <item >2</item>
+	</string-array>
+	
+	<string name="desc_sceneselection">Auswählen, um die Motivprogramm zu ändern</string>
+	<string name="desc_snow">Überprüfen Sie, Schneefall aktivieren</string>
+	<string name="desc_sensi">Änderung der Beschleunigung Empfindlichkeit</string>
+	<string name="desc_lowbattery">Auf niedrigen Batterie, Pause und sparen Batterieverbrauch</string>
+	<string name="desc_bgtimercheck">Überprüfen Sie, um zufällige Hintergrundwechsel jede spezifische Stunde</string>
+	<string name="desc_bgtimer">Wählen Sie Zeit für den Hintergrund</string>
+	<string name="desc_shake">Ändern shakiness Faktor</string>
+	
+	<string name="desc_properties">Ändern Sie die Eigenschaften der Tapete</string>
+	<string name="desc_customization">Customization Tapeten</string>
+	
+	<string name="tite_sceneselection">Scene Selection</string>
+	<string name="title_snow">Schneefall</string>
+	<string name="title_sensi">Empfindlichkeit</string>
+	<string name="title_lowbattery">Low Battery</string>
+	<string name="title_bgtimer">Background Timer</string>
+	<string name="title_timer">Timer</string>
+	<string name="title_shake">Shakiness</string>
+	
+	<string name="title_properties">Eigenschaft</string>
+	<string name="title_customization">Customization</string>
+	
+	<string name="title_main">Settings</string>
+</resources>

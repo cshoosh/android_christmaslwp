@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="wallpaper_settings"
+    android:title="@string/title_main" >
+    
+    <PreferenceCategory android:title="@string/title_properties"
+        android:summary="@string/desc_properties">
+        
+        <ListPreference android:key="@string/key_sceneselection"
+            android:title="@string/tite_sceneselection"
+            android:summary="@string/desc_sceneselection"
+            android:defaultValue="0"
+            android:entryValues="@array/scene_values"
+            android:entries="@array/scene_list"/>
+        <CheckBoxPreference android:key="@string/key_snow"
+            android:defaultValue="@bool/def_snow"
+            android:title="@string/title_snow"
+            android:summary="@string/desc_snow"
+            />
+        <com.zerotwoone.livewallpaper.xmasparallax.SeekBarPreference
+            android:key="@string/key_sensi"
+            android:defaultValue="@integer/def_sensi"
+            android:title="@string/title_sensi"
+            android:summary="@string/desc_sensi"
+            android:dialogLayout="@layout/pref_sensi_bar"
+            android:negativeButtonText="@android:string/cancel"
+            android:positiveButtonText="@android:string/ok"
+            />
+        <com.zerotwoone.livewallpaper.xmasparallax.SeekBarPreference
+            android:key="@string/key_shake"
+            android:defaultValue="@integer/def_sensi"
+            android:title="@string/title_shake"
+            android:summary="@string/desc_shake"
+            android:dialogLayout="@layout/pref_sensi_bar"
+            android:negativeButtonText="@android:string/cancel"
+            android:positiveButtonText="@android:string/ok"
+            />
+    </PreferenceCategory>
+	<PreferenceCategory android:title="@string/title_customization"
+	    android:summary="@string/desc_customization">
+	    
+	    <CheckBoxPreference android:key="@string/key_lowbattery"
+	        android:title="@string/title_lowbattery"
+	        android:summary="@string/desc_lowbattery"
+	        android:defaultValue="@bool/def_lowbatterycheck"/>
+	    
+	    <CheckBoxPreference android:key="@string/key_bgtimercheck"
+	       	android:title="@string/title_bgtimer"
+	       	android:summary="@string/desc_bgtimercheck"
+	       	android:defaultValue="@bool/def_bgtimercheck"/>
+	    
+	    <com.zerotwoone.livewallpaper.xmasparallax.NumberPickerPreference
+            android:key="@string/key_bgtimercount"
+            android:defaultValue="@integer/def_bgtimer"
+            android:title="@string/title_timer"
+            android:dialogLayout="@layout/pref_number_picker"
+            android:dependency="@string/key_bgtimercheck"
+            android:negativeButtonText="@android:string/cancel"
+            android:positiveButtonText="@android:string/ok"
+            android:summary="@string/desc_bgtimer"
+            />
+	</PreferenceCategory>
+</PreferenceScreen>
